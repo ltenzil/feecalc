@@ -1,0 +1,34 @@
+{
+"RECORDS":[
+    {
+      "id":"1",
+      "name":"Flatley-Rowe",
+      "email":"info@flatley-rowe.com",
+      "cif":"B611111111"
+    },
+    {
+      "id":"2",
+      "name":"Weissnat, Hackett and Purdy",
+      "email":"info@weissnat-hackett-and-purdy.com",
+      "cif":"B611111112"
+    },
+    {
+      "id":"3",
+      "name":"Streich, Klocko and Marvin",
+      "email":"info@streich-klocko-and-marvin.com",
+      "cif":"B611111113"
+    },
+    {
+      "id":"7",
+      "name":"Pfeffer, Wiza and Jacobson",
+      "email":"info@pfeffer-wiza-and-jacobson.com",
+      "cif":"B611111114"
+    },
+    {
+      "id":"9",
+      "name":"Von and Sons",
+      "email":"info@von-and-sons.com",
+      "cif":"B611111115"
+    } 
+  ]
+}

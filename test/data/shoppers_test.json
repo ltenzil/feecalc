@@ -1,0 +1,52 @@
+{
+"RECORDS":[
+    {
+      "id":"1",
+      "name":"Vickey Nikolaus",
+      "email":"vickey.nikolaus@not_gmail.com",
+      "nif":"411111111Z"
+    },
+    {
+      "id":"2",
+      "name":"Jennefer Murray",
+      "email":"jennefer.murray@not_gmail.com",
+      "nif":"411111112Z"
+    },
+    {
+      "id":"125",
+      "name":"Shanice Bauch",
+      "email":"shanice.bauch@not_gmail.com",
+      "nif":"411111125Z"
+    },
+    {
+      "id":"4",
+      "name":"Delphine Ortiz",
+      "email":"delphine.ortiz@not_gmail.com",
+      "nif":"411111114Z"
+    },
+    {
+      "id":"5",
+      "name":"Dawne Watsica",
+      "email":"dawne.watsica@not_gmail.com",
+      "nif":"411111115Z"
+    },
+    {
+      "id":"15",
+      "name":"Eldridge Wiegand",
+      "email":"eldridge.wiegand@not_gmail.com",
+      "nif":"411111115Z"
+    },
+    {
+      "id":"77",
+      "name":"Melania Little",
+      "email":"melania.little@not_gmail.com",
+      "nif":"411111177Z"
+    },
+    {
+      "id":"325",
+      "name":"Lissette Leffler",
+      "email":"lissette.leffler@not_gmail.com",
+      "nif":"411111325Z"
+    }
+  ]
+}
