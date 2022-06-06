@@ -20,7 +20,7 @@ defmodule Sequra.RouterTest do
   test "returns disburse report for merchant" do
     conn =
       :get
-      |> conn("/disburse/merchants/2?date=01/06/2022")
+      |> conn("/disburse/merchants/2", %{"date" => "01/06/2022"})
       |> Router.call(@opts)
 
     response = Poison.decode!(conn.resp_body)
@@ -31,12 +31,12 @@ defmodule Sequra.RouterTest do
   end
 
   test "returns disburse report for merchant, record dates" do
-    date = "01/06/2022"
     conn =
       :get
-      |> conn("/disburse/merchants/2?date=#{date}")
+      |> conn("/disburse/merchants/2", %{"date" => "01/06/2022"})
       |> Router.call(@opts)
 
+    date = "01/06/2022"
     week = Order.get_range(date)
     response = Poison.decode!(conn.resp_body)
     record   =  List.first(response["data"])
@@ -49,7 +49,7 @@ defmodule Sequra.RouterTest do
   test "returns disburse report for merchants" do
     conn =
       :get
-      |> conn("/disburse/merchants?date=01/06/2022")
+      |> conn("/disburse/merchants", %{"date" => "01/06/2022"})
       |> Router.call(@opts)
 
     response = Poison.decode!(conn.resp_body)
